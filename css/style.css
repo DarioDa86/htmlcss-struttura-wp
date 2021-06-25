@@ -21,7 +21,8 @@
 header{
     height: 150px;
     background-color: #e579e6;
-    margin-bottom: 20px;
+    margin: 20px 0;
+
 }
 
 /* inizio secondo container */
@@ -35,25 +36,26 @@ header{
 .second-container{
     height: 500px;
     background-color: #0185ff; 
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .col-header{
-    height: 100px;
+    height: calc(20% - 20px);
+    margin-bottom: 15px;
     background-color: #abcfe7;
     margin-bottom: 10px;
-    float: top;
+    float: ;
 }
 
 .col-left {
-    height: 400px;
+    height: 80%;
     width: 25%;
     background-color: #abcfe7;
     float: left
 }
 
 .col-center {
-    height: 400px;
+    height: 80%;
     width: calc(50% - 40px);
     margin: 0 20px;
     background-color: #abcfe7;
@@ -61,7 +63,7 @@ header{
 }
 
 .col-right {
-    height: 400px;
+    height: 80%;
     width: 25%;
     background-color: #abcfe7;
     float: left
@@ -70,4 +72,6 @@ header{
 .footer {
     height: 100px;
     background-color: #8801fe;
+    margin-bottom: 20px;
+
 }
