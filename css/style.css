@@ -39,39 +39,34 @@ header{
     margin-bottom: 5px;
 }
 
+.col-common {
+    height: 80%;
+    float: left;
+    background-color: #abcfe7;
+}
+
 .col-header{
     height: calc(20% - 20px);
     margin-bottom: 15px;
-    background-color: #abcfe7;
     margin-bottom: 10px;
-    float: ;
+    background-color: #abcfe7;
 }
 
 .col-left {
-    height: 80%;
     width: 25%;
-    background-color: #abcfe7;
-    float: left
 }
 
 .col-center {
-    height: 80%;
     width: calc(50% - 40px);
     margin: 0 20px;
-    background-color: #abcfe7;
-    float: left
 }
 
 .col-right {
-    height: 80%;
     width: 25%;
-    background-color: #abcfe7;
-    float: left
 }
 
 .footer {
-    height: 100px;
+    height: 50px;
     background-color: #8801fe;
     margin-bottom: 20px;
-
 }
