@@ -21,48 +21,53 @@
 header{
     height: 150px;
     background-color: #e579e6;
+    margin-bottom: 20px;
 }
 
 /* inizio secondo container */
 .first-container{
     height: 400px;
     background-color: #e1d67a; 
+    margin-bottom: 20px;
 }
 
 /* inizio secondo container */
 .second-container{
     height: 500px;
     background-color: #0185ff; 
+    margin-bottom: 20px;
 }
 
 .col-header{
     height: 100px;
     background-color: #abcfe7;
+    margin-bottom: 10px;
     float: top;
 }
 
 .col-left {
-    height: 500px;
+    height: 400px;
     width: 25%;
     background-color: #abcfe7;
     float: left
 }
 
 .col-center {
-    height: 500px;
-    width: 50%;
+    height: 400px;
+    width: calc(50% - 40px);
+    margin: 0 20px;
     background-color: #abcfe7;
     float: left
 }
 
 .col-right {
-    height: 500px;
+    height: 400px;
     width: 25%;
     background-color: #abcfe7;
     float: left
 }
 
-.footer{
-    height: 300px;
+.footer {
+    height: 100px;
     background-color: #8801fe;
 }
